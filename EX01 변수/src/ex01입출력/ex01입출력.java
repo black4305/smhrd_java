@@ -25,7 +25,21 @@ public class ex01입출력 {
 		int box; // 변수 선언 시 사용
 		box = 3; // 변수에 값을 저장(-> 값을 할당)
 		// = : 대입 연산자 (값을 저장하는 역할)
-		System.out.println(box);
+		System.out.println(box); // 변수 안에 있는 값 출력!
+		
+		// int box = 3; -> 변수 이름 중복 불가!
+		// 정수형 box2라는 변수(저장 공간)에 3이라는 정수를 넣음(저장)
+		int box2 = 3;
+		
+		// final + 변수 -> 상수(값이 변경될 수 없음)
+		final int BOX3 = 5;
+		box2 = 6;
+		System.out.println(box2); // 변수에 값을 재할당(데이터를 저장) 가능
+		// BOX3 = 2;
+		// 할당 : assign
+		
+		
+		
 	}
 	
 }
